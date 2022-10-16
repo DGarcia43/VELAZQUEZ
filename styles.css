@@ -1,4 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200;700 & display=swap');
+body{
+    font-family:'Montserrat', sans-serif ;
+}
+h1{
+    font-weight: 200;
+    text-align: center;
+}
 #Section1{
     position: fixed;
     width: 200px;
@@ -8,18 +15,40 @@
 #Section2{
     position: fixed;
     height: 100%;
-    width: 50%;
-    left: 13%;
+    width: 45%;
+    left: 15%;
+
 }
 #Section3{
-    background-color: crimson;
     position: fixed;
     height: 100%;
-    width: 50%;
+    width: 40%;
     right: 0;
 }
 .imagen{
     margin: auto;
     display: block;
     padding: 20px;
+    filter: grayscale(100%);
+}
+.imagen:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+}
+.IMAGEN{
+width: 95%;
+    height: 100%;
+
+}
+.Centrar{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.Descripcion{
+    margin: auto;
+    display: block;
+    padding: 15px;
+    position: absolute;
+    top: 48%;
 }
