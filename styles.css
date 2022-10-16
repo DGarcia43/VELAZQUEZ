@@ -1,12 +1,11 @@
 
 #Section1{
     position: fixed;
-    background-color: blueviolet;
     width: 200px;
     height: 100%;
+    overflow-y: scroll;
 }
 #Section2{
-    background-color: blue;
     position: fixed;
     height: 100%;
     width: 50%;
@@ -18,4 +17,9 @@
     height: 100%;
     width: 50%;
     right: 0;
+}
+.imagen{
+    margin: auto;
+    display: block;
+    padding: 20px;
 }
