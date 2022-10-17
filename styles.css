@@ -52,3 +52,13 @@ width: 95%;
     position: absolute;
     top: 48%;
 }
+button{
+    background-color:#97c1c0;
+    border: none;
+    padding: 9px 26px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #04c5c0;
+}
